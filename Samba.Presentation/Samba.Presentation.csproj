@@ -29,7 +29,7 @@
     <UpdatePeriodically>true</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <InstallUrl>http://www.sambapos.com/sambaapp/</InstallUrl>
+    <InstallUrl>http://localhost:8080/</InstallUrl>
     <TargetCulture>tr</TargetCulture>
     <ProductName>Samba Pos</ProductName>
     <PublisherName>Ozgu Technology</PublisherName>
@@ -360,6 +360,7 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="checkout1_50px.png" />
     <Content Include="Images\empty.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
